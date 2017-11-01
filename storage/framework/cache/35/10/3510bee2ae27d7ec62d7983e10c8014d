@@ -1,0 +1,50 @@
+1509568618a:1:{s:13:"blog/post.htm";a:8:{s:8:"fileName";s:13:"blog/post.htm";s:7:"content";s:462:"title = "Blog Post"
+url = "/blog/post/:slug"
+
+[blogPost]
+==
+<?php
+function onEnd()
+{
+    // Optional - set the page title to the post title
+    if (isset($this->post))
+        $this->page->title = $this->post->title;
+}
+?>
+==
+<section style="padding:70px">
+{% partial 'site/head' %}
+{% if post %}
+    <h2>{{ post.title }}</h2>
+
+    {% component 'blogPost' %}
+{% else %}
+    <h2>Post not found</h2>
+{% endif %}
+
+
+
+{% page %}
+</section>
+
+{% partial 'site/footer' %}";s:5:"mtime";i:1509568014;s:6:"markup";s:237:"<section style="padding:70px">
+{% partial 'site/head' %}
+{% if post %}
+    <h2>{{ post.title }}</h2>
+
+    {% component 'blogPost' %}
+{% else %}
+    <h2>Post not found</h2>
+{% endif %}
+
+
+
+{% page %}
+</section>
+
+{% partial 'site/footer' %}";s:4:"code";s:152:"function onEnd()
+{
+    // Optional - set the page title to the post title
+    if (isset($this->post))
+        $this->page->title = $this->post->title;
+}";s:5:"title";s:9:"Blog Post";s:3:"url";s:16:"/blog/post/:slug";s:8:"blogPost";a:0:{}}}

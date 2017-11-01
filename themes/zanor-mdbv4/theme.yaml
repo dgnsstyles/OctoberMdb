@@ -1,0 +1,15 @@
+name: 'Pelochuzo'
+description: 'Material Design for Booststrap version 4.4.1 (stable)'
+author: 'David Goren'
+homepage: 'pelochuzo.cl'
+code: 'MDBv4'
+form:
+  fields:
+    site_name:
+      label: Site name
+      comment: the global website name
+      default: Pelochuzo
+    site_description:
+      label: Site
+      comment: the global website description
+      default: 
