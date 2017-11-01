@@ -1,4 +1,4 @@
-1509568618a:1:{s:13:"blog/post.htm";a:8:{s:8:"fileName";s:13:"blog/post.htm";s:7:"content";s:462:"title = "Blog Post"
+1509570247a:1:{s:13:"blog/post.htm";a:8:{s:8:"fileName";s:13:"blog/post.htm";s:7:"content";s:469:"title = "Blog Post"
 url = "/blog/post/:slug"
 
 [blogPost]
@@ -17,7 +17,7 @@ function onEnd()
 {% if post %}
     <h2>{{ post.title }}</h2>
 
-    {% component 'blogPost' %}
+    <p>{% component 'blogPost' %}</p>
 {% else %}
     <h2>Post not found</h2>
 {% endif %}
@@ -27,12 +27,12 @@ function onEnd()
 {% page %}
 </section>
 
-{% partial 'site/footer' %}";s:5:"mtime";i:1509568014;s:6:"markup";s:237:"<section style="padding:70px">
+{% partial 'site/footer' %}";s:5:"mtime";i:1509569642;s:6:"markup";s:244:"<section style="padding:70px">
 {% partial 'site/head' %}
 {% if post %}
     <h2>{{ post.title }}</h2>
 
-    {% component 'blogPost' %}
+    <p>{% component 'blogPost' %}</p>
 {% else %}
     <h2>Post not found</h2>
 {% endif %}

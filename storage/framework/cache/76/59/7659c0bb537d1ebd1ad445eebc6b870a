@@ -1,6 +1,5 @@
-1509568471a:1:{s:15:"site/footer.htm";a:6:{s:8:"fileName";s:15:"site/footer.htm";s:7:"content";s:4810:"description = "Footer"
+1509570183a:1:{s:15:"site/footer.htm";a:6:{s:8:"fileName";s:15:"site/footer.htm";s:7:"content";s:4513:"description = "Footer"
 ==
-
 <!--Footer-->
 <footer class="page-footer center-on-small-only">
     
@@ -93,14 +92,7 @@
             </div>
             <!--/.Call to action-->
     
-            <!--Copyright-->
-            <div class="footer-copyright">
-                <div class="container-fluid">
-                    © 2015 Copyright: <a href="https://www.MDBootstrap.com"> MDBootstrap.com </a>
-    
-                </div>
-            </div>
-            <!--/.Copyright-->
+        
     
         </footer>
         <!--/.Footer-->
@@ -117,7 +109,7 @@
     {% scripts %}
 
 </body>
-</html>";s:5:"mtime";i:1509558123;s:6:"markup";s:4780:"<!--Footer-->
+</html>";s:5:"mtime";i:1509569571;s:6:"markup";s:4487:"<!--Footer-->
 <footer class="page-footer center-on-small-only">
     
             <!--Footer links-->
@@ -209,14 +201,7 @@
             </div>
             <!--/.Call to action-->
     
-            <!--Copyright-->
-            <div class="footer-copyright">
-                <div class="container-fluid">
-                    © 2015 Copyright: <a href="https://www.MDBootstrap.com"> MDBootstrap.com </a>
-    
-                </div>
-            </div>
-            <!--/.Copyright-->
+        
     
         </footer>
         <!--/.Footer-->

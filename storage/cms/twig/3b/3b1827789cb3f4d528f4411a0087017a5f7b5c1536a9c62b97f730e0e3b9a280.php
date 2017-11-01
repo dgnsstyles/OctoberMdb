@@ -108,38 +108,31 @@ class __TwigTemplate_e8f03bd1158ab9ee49b0d25da7ae51457f4fde7e6881ebb134fec8d675d
             </div>
             <!--/.Call to action-->
     
-            <!--Copyright-->
-            <div class=\"footer-copyright\">
-                <div class=\"container-fluid\">
-                    © 2015 Copyright: <a href=\"https://www.MDBootstrap.com\"> MDBootstrap.com </a>
-    
-                </div>
-            </div>
-            <!--/.Copyright-->
+        
     
         </footer>
         <!--/.Footer-->
     
     
 <script src=\"";
-        // line 106
+        // line 99
         echo $this->env->getExtension('Cms\Twig\Extension')->themeFilter(array(0 => "assets/js/jquery-3.1.1.min.js", 1 => "assets/js/popper.min.js", 2 => "assets/js/bootstrap.min.js", 3 => "assets/js/mdb.min.js"));
-        // line 111
+        // line 104
         echo "\"></script>
 
     ";
-        // line 113
+        // line 106
         echo '<script src="'. Request::getBasePath()
                 .'/modules/system/assets/js/framework.js"></script>'.PHP_EOL;
         echo '<script src="'. Request::getBasePath()
                     .'/modules/system/assets/js/framework.extras.js"></script>'.PHP_EOL;
         echo '<link rel="stylesheet" property="stylesheet" href="'. Request::getBasePath()
                     .'/modules/system/assets/css/framework.extras.css">'.PHP_EOL;
-        // line 114
+        // line 107
         echo "    ";
         echo $this->env->getExtension('CMS')->assetsFunction('js');
         echo $this->env->getExtension('CMS')->displayBlock('scripts');
-        // line 115
+        // line 108
         echo "
 </body>
 </html>";
@@ -157,7 +150,7 @@ class __TwigTemplate_e8f03bd1158ab9ee49b0d25da7ae51457f4fde7e6881ebb134fec8d675d
 
     public function getDebugInfo()
     {
-        return array (  143 => 115,  139 => 114,  132 => 113,  128 => 111,  126 => 106,  19 => 1,);
+        return array (  136 => 108,  132 => 107,  125 => 106,  121 => 104,  119 => 99,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -262,14 +255,7 @@ class __TwigTemplate_e8f03bd1158ab9ee49b0d25da7ae51457f4fde7e6881ebb134fec8d675d
             </div>
             <!--/.Call to action-->
     
-            <!--Copyright-->
-            <div class=\"footer-copyright\">
-                <div class=\"container-fluid\">
-                    © 2015 Copyright: <a href=\"https://www.MDBootstrap.com\"> MDBootstrap.com </a>
-    
-                </div>
-            </div>
-            <!--/.Copyright-->
+        
     
         </footer>
         <!--/.Footer-->

@@ -29,11 +29,13 @@ class __TwigTemplate_7c9779f3ef78cfa42249cb908de10490289777d8dc9a69ba5defce7f852
             echo twig_escape_filter($this->env, $this->getAttribute(($context["post"] ?? null), "title", array()), "html", null, true);
             echo "</h2>
 
-    ";
+    <p>";
             // line 6
             $context['__cms_component_params'] = [];
             echo $this->env->getExtension('CMS')->componentFunction("blogPost"            , $context['__cms_component_params']            );
             unset($context['__cms_component_params']);
+            echo "</p>
+";
         } else {
             // line 8
             echo "    <h2>Post not found</h2>
@@ -68,7 +70,7 @@ class __TwigTemplate_7c9779f3ef78cfa42249cb908de10490289777d8dc9a69ba5defce7f852
 
     public function getDebugInfo()
     {
-        return array (  54 => 16,  50 => 14,  48 => 13,  43 => 10,  39 => 8,  34 => 6,  28 => 4,  26 => 3,  22 => 2,  19 => 1,);
+        return array (  56 => 16,  52 => 14,  50 => 13,  45 => 10,  41 => 8,  34 => 6,  28 => 4,  26 => 3,  22 => 2,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -86,7 +88,7 @@ class __TwigTemplate_7c9779f3ef78cfa42249cb908de10490289777d8dc9a69ba5defce7f852
 {% if post %}
     <h2>{{ post.title }}</h2>
 
-    {% component 'blogPost' %}
+    <p>{% component 'blogPost' %}</p>
 {% else %}
     <h2>Post not found</h2>
 {% endif %}

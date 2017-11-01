@@ -84,12 +84,13 @@
                 <li class="nav-item {% if this.page.id == 'Inicio' %}active{% endif %}">
                     <a class="nav-link" href="{{ 'inicio'|page }}">Inicio</a>
                 </li>
+            </li>
+               <li class="nav-item {% if this.page.id == 'blog' %}active{% endif %}">
+                  <a class="nav-link" href="{{ 'blog'|page }}">Noticias</a>
+               </li>
                 <li class="nav-item {% if this.page.id == 'nosotros' %}active{% endif %}">
                     <a class="nav-link" href="{{ 'nosotros'|page }}">Nosotros</a>
-                </li>
-                <li class="nav-item {% if this.page.id == 'blog' %}active{% endif %}">
-                    <a class="nav-link" href="{{ 'blog'|page }}">Blog</a>
-                </li>
+                
                 <li class="nav-item {% if this.page.id == 'contacto' %}active{% endif %}">
                     <a class="nav-link" href="{{ 'contacto'|page }}">Contacto</a>
                 </li>

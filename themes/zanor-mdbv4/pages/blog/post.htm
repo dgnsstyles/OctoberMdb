@@ -17,7 +17,7 @@ function onEnd()
 {% if post %}
     <h2>{{ post.title }}</h2>
 
-    {% component 'blogPost' %}
+    <p>{% component 'blogPost' %}</p>
 {% else %}
     <h2>Post not found</h2>
 {% endif %}

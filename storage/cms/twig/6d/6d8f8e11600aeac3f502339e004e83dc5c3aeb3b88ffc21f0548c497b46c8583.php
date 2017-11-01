@@ -111,36 +111,37 @@ class __TwigTemplate_a9826c62b660f599010cb5d863ec77cd5b00477ee1901989cfcd8d18dfa
         echo $this->env->getExtension('Cms\Twig\Extension')->pageFilter("inicio");
         echo "\">Inicio</a>
                 </li>
+            </li>
+               <li class=\"nav-item ";
+        // line 86
+        if (($this->getAttribute($this->getAttribute(($context["this"] ?? null), "page", array()), "id", array()) == "blog")) {
+            echo "active";
+        }
+        echo "\">
+                  <a class=\"nav-link\" href=\"";
+        // line 87
+        echo $this->env->getExtension('Cms\Twig\Extension')->pageFilter("blog");
+        echo "\">Noticias</a>
+               </li>
                 <li class=\"nav-item ";
-        // line 85
+        // line 89
         if (($this->getAttribute($this->getAttribute(($context["this"] ?? null), "page", array()), "id", array()) == "nosotros")) {
             echo "active";
         }
         echo "\">
                     <a class=\"nav-link\" href=\"";
-        // line 86
+        // line 90
         echo $this->env->getExtension('Cms\Twig\Extension')->pageFilter("nosotros");
         echo "\">Nosotros</a>
-                </li>
+                
                 <li class=\"nav-item ";
-        // line 88
-        if (($this->getAttribute($this->getAttribute(($context["this"] ?? null), "page", array()), "id", array()) == "blog")) {
-            echo "active";
-        }
-        echo "\">
-                    <a class=\"nav-link\" href=\"";
-        // line 89
-        echo $this->env->getExtension('Cms\Twig\Extension')->pageFilter("blog");
-        echo "\">Blog</a>
-                </li>
-                <li class=\"nav-item ";
-        // line 91
+        // line 92
         if (($this->getAttribute($this->getAttribute(($context["this"] ?? null), "page", array()), "id", array()) == "contacto")) {
             echo "active";
         }
         echo "\">
                     <a class=\"nav-link\" href=\"";
-        // line 92
+        // line 93
         echo $this->env->getExtension('Cms\Twig\Extension')->pageFilter("contacto");
         echo "\">Contacto</a>
                 </li>
@@ -164,7 +165,7 @@ class __TwigTemplate_a9826c62b660f599010cb5d863ec77cd5b00477ee1901989cfcd8d18dfa
 
     public function getDebugInfo()
     {
-        return array (  144 => 92,  138 => 91,  133 => 89,  127 => 88,  122 => 86,  116 => 85,  111 => 83,  105 => 82,  96 => 76,  19 => 1,);
+        return array (  145 => 93,  139 => 92,  134 => 90,  128 => 89,  123 => 87,  117 => 86,  111 => 83,  105 => 82,  96 => 76,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -261,12 +262,13 @@ class __TwigTemplate_a9826c62b660f599010cb5d863ec77cd5b00477ee1901989cfcd8d18dfa
                 <li class=\"nav-item {% if this.page.id == 'Inicio' %}active{% endif %}\">
                     <a class=\"nav-link\" href=\"{{ 'inicio'|page }}\">Inicio</a>
                 </li>
+            </li>
+               <li class=\"nav-item {% if this.page.id == 'blog' %}active{% endif %}\">
+                  <a class=\"nav-link\" href=\"{{ 'blog'|page }}\">Noticias</a>
+               </li>
                 <li class=\"nav-item {% if this.page.id == 'nosotros' %}active{% endif %}\">
                     <a class=\"nav-link\" href=\"{{ 'nosotros'|page }}\">Nosotros</a>
-                </li>
-                <li class=\"nav-item {% if this.page.id == 'blog' %}active{% endif %}\">
-                    <a class=\"nav-link\" href=\"{{ 'blog'|page }}\">Blog</a>
-                </li>
+                
                 <li class=\"nav-item {% if this.page.id == 'contacto' %}active{% endif %}\">
                     <a class=\"nav-link\" href=\"{{ 'contacto'|page }}\">Contacto</a>
                 </li>
