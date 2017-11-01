@@ -18,12 +18,12 @@ class __TwigTemplate_79ada7beb6f0d23cc6e70db85525d90f323192d288f439c7a366fd66773
         // line 1
         echo "<!--Section: Contact v.2-->
 
-<section class=\"section\" style=\"padding-top:70px\">
+<section class=\"section container\" style=\"padding-top:70px\">
     
         <!--Section heading-->
-        <h2 class=\"section-heading h1 pt-4\">Contact us</h2>
+        <h2 class=\"section-heading h1 pt-4\">Contactanos</h2>
         <!--Section description-->
-        <p class=\"section-description\">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within matter of hours to help you.</p>
+        <p class=\"section-description\">Si tienes alguna pregunta nosotros con gusto te atenderemos</p>
     
         <div class=\"row\">
     
@@ -39,7 +39,7 @@ class __TwigTemplate_79ada7beb6f0d23cc6e70db85525d90f323192d288f439c7a366fd66773
                             <div class=\"md-form\">
                                 <div class=\"md-form\">
                                     <input type=\"text\" id=\"name\" name=\"name\" class=\"form-control\">
-                                    <label for=\"name\" class=\"\">Your name</label>
+                                    <label for=\"name\" class=\"\">Nombre</label>
                                 </div>
                             </div>
                         </div>
@@ -50,7 +50,7 @@ class __TwigTemplate_79ada7beb6f0d23cc6e70db85525d90f323192d288f439c7a366fd66773
                             <div class=\"md-form\">
                                 <div class=\"md-form\">
                                     <input type=\"text\" id=\"email\" name=\"email\" class=\"form-control\">
-                                    <label for=\"email\" class=\"\">Your email</label>
+                                    <label for=\"email\" class=\"\">Correo electronico</label>
                                 </div>
                             </div>
                         </div>
@@ -64,7 +64,7 @@ class __TwigTemplate_79ada7beb6f0d23cc6e70db85525d90f323192d288f439c7a366fd66773
                         <div class=\"col-md-12\">
                             <div class=\"md-form\">
                                 <input type=\"text\" id=\"subject\" name=\"subject\" class=\"form-control\">
-                                <label for=\"subject\" class=\"\">Subject</label>
+                                <label for=\"subject\" class=\"\">Tema</label>
                             </div>
                         </div>
                     </div>
@@ -78,7 +78,7 @@ class __TwigTemplate_79ada7beb6f0d23cc6e70db85525d90f323192d288f439c7a366fd66773
     
                             <div class=\"md-form\">
                                 <textarea type=\"text\" id=\"message\" name=\"message\" class=\"md-textarea\"></textarea>
-                                <label for=\"message\">Your message</label>
+                                <label for=\"message\">Mensaje</label>
                             </div>
     
                         </div>
@@ -88,7 +88,7 @@ class __TwigTemplate_79ada7beb6f0d23cc6e70db85525d90f323192d288f439c7a366fd66773
                 </form>
     
                 <div class=\"center-on-small-only\">
-                    <a class=\"btn btn-primary\" onclick=\"document.getElementById('contact-form').submit();\">Send</a>
+                    <a class=\"btn btn-primary\" onclick=\"document.getElementById('contact-form').submit();\">Enviar</a>
                 </div>
                 <div class=\"status\" id=\"status\"></div>
             </div>
@@ -98,7 +98,7 @@ class __TwigTemplate_79ada7beb6f0d23cc6e70db85525d90f323192d288f439c7a366fd66773
             <div class=\"col-md-4 col-xl-3\">
                 <ul class=\"contact-icons\">
                     <li><i class=\"fa fa-map-marker fa-2x\"></i>
-                        <p>San Francisco, CA 94126, USA</p>
+                        <p>Santiago de Chile</p>
                     </li>
     
                     <li><i class=\"fa fa-phone fa-2x\"></i>
@@ -106,7 +106,7 @@ class __TwigTemplate_79ada7beb6f0d23cc6e70db85525d90f323192d288f439c7a366fd66773
                     </li>
     
                     <li><i class=\"fa fa-envelope fa-2x\"></i>
-                        <p>contact@mdbootstrap.com</p>
+                        <p>contacto@pelochuzo.cl</p>
                     </li>
                 </ul>
             </div>
@@ -139,12 +139,12 @@ class __TwigTemplate_79ada7beb6f0d23cc6e70db85525d90f323192d288f439c7a366fd66773
     {
         return new Twig_Source("<!--Section: Contact v.2-->
 
-<section class=\"section\" style=\"padding-top:70px\">
+<section class=\"section container\" style=\"padding-top:70px\">
     
         <!--Section heading-->
-        <h2 class=\"section-heading h1 pt-4\">Contact us</h2>
+        <h2 class=\"section-heading h1 pt-4\">Contactanos</h2>
         <!--Section description-->
-        <p class=\"section-description\">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within matter of hours to help you.</p>
+        <p class=\"section-description\">Si tienes alguna pregunta nosotros con gusto te atenderemos</p>
     
         <div class=\"row\">
     
@@ -160,7 +160,7 @@ class __TwigTemplate_79ada7beb6f0d23cc6e70db85525d90f323192d288f439c7a366fd66773
                             <div class=\"md-form\">
                                 <div class=\"md-form\">
                                     <input type=\"text\" id=\"name\" name=\"name\" class=\"form-control\">
-                                    <label for=\"name\" class=\"\">Your name</label>
+                                    <label for=\"name\" class=\"\">Nombre</label>
                                 </div>
                             </div>
                         </div>
@@ -171,7 +171,7 @@ class __TwigTemplate_79ada7beb6f0d23cc6e70db85525d90f323192d288f439c7a366fd66773
                             <div class=\"md-form\">
                                 <div class=\"md-form\">
                                     <input type=\"text\" id=\"email\" name=\"email\" class=\"form-control\">
-                                    <label for=\"email\" class=\"\">Your email</label>
+                                    <label for=\"email\" class=\"\">Correo electronico</label>
                                 </div>
                             </div>
                         </div>
@@ -185,7 +185,7 @@ class __TwigTemplate_79ada7beb6f0d23cc6e70db85525d90f323192d288f439c7a366fd66773
                         <div class=\"col-md-12\">
                             <div class=\"md-form\">
                                 <input type=\"text\" id=\"subject\" name=\"subject\" class=\"form-control\">
-                                <label for=\"subject\" class=\"\">Subject</label>
+                                <label for=\"subject\" class=\"\">Tema</label>
                             </div>
                         </div>
                     </div>
@@ -199,7 +199,7 @@ class __TwigTemplate_79ada7beb6f0d23cc6e70db85525d90f323192d288f439c7a366fd66773
     
                             <div class=\"md-form\">
                                 <textarea type=\"text\" id=\"message\" name=\"message\" class=\"md-textarea\"></textarea>
-                                <label for=\"message\">Your message</label>
+                                <label for=\"message\">Mensaje</label>
                             </div>
     
                         </div>
@@ -209,7 +209,7 @@ class __TwigTemplate_79ada7beb6f0d23cc6e70db85525d90f323192d288f439c7a366fd66773
                 </form>
     
                 <div class=\"center-on-small-only\">
-                    <a class=\"btn btn-primary\" onclick=\"document.getElementById('contact-form').submit();\">Send</a>
+                    <a class=\"btn btn-primary\" onclick=\"document.getElementById('contact-form').submit();\">Enviar</a>
                 </div>
                 <div class=\"status\" id=\"status\"></div>
             </div>
@@ -219,7 +219,7 @@ class __TwigTemplate_79ada7beb6f0d23cc6e70db85525d90f323192d288f439c7a366fd66773
             <div class=\"col-md-4 col-xl-3\">
                 <ul class=\"contact-icons\">
                     <li><i class=\"fa fa-map-marker fa-2x\"></i>
-                        <p>San Francisco, CA 94126, USA</p>
+                        <p>Santiago de Chile</p>
                     </li>
     
                     <li><i class=\"fa fa-phone fa-2x\"></i>
@@ -227,7 +227,7 @@ class __TwigTemplate_79ada7beb6f0d23cc6e70db85525d90f323192d288f439c7a366fd66773
                     </li>
     
                     <li><i class=\"fa fa-envelope fa-2x\"></i>
-                        <p>contact@mdbootstrap.com</p>
+                        <p>contacto@pelochuzo.cl</p>
                     </li>
                 </ul>
             </div>
